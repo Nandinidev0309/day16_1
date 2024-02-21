@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b{
+            border: 1px solid black;
+            /* height: 50vh; */
+            width: 100vh;
+            
+        }
+        .bottom{
+            background-color: burlywood;
+            display: flex;
+            column-gap: 2px;
+            justify-content: center; 
+            align-content: center;
+            flex-wrap: wrap;
+            padding: 10px; 
+        }
+        .top{
+            background-color: blueviolet;
+            border: 1px solid black;
+            width: 80px;
+            height: 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="bottom">
+        <div style="order:1;" class="top">1</div>
+        <div style="order: 0;" class="top">2</div>
+        <div style="order: 4;" class="top">3</div>
+        <div style="order: 2;" class="top">4</div>
+        <div style="order: 3;" class="top">5</div>
+        <div style="order: 5;" class="top">6</div>
+    </div>
+</body>
+</html>
